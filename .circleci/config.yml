@@ -2,7 +2,7 @@ version: 2
 
 defaults: &linux_defaults
   docker:
-    - image: circleci/python:3.7.2
+    - image: circleci/python:3.10.1
 
 jobs:
   check_dependencies:
